@@ -10,7 +10,7 @@
 <header>
     <img src="icon tintin.png" alt="icono de la pagina" class="iconpag">
     <nav>
-      <ul>
+      <ul id="navegar">
         <li><a href="#home">Inicio</a></li>
         <li><a href="#recipes">Recetas</a></li>
         <li><a href="#about">Sobre mí</a></li>
@@ -20,7 +20,7 @@
   </header>
 <hr>
   <section id="home">
-    <h2>Tintin on the Rocks</h2>
+    <h1>Tintin on the Rocks</h1>
     <p>Mi proyecto que mezcla la cocteleria y el desarrollo web, incluye mis recetas y mezclas. </p>
   </section>
 
@@ -60,11 +60,17 @@
   </section>
 <hr>
   <section id="about">
-    <h2>Sobre TinTin</h2>
+    <h2>Sobre mi</h2>
   <p>Soy Agustín, un bartender y programador uruguayo  en alza con pasión por crear mezclas únicas y compartirlas con el mundo.</p>
 <figure>
-     <video src="mitrabajooo.mp4" class="mitrabajodebar" controls></video>
-     <figcaption> Una recopilacion de mis mejores momentos trabajando en diferentes bares.</figcaption>
+       <iframe 
+    class="mitrabajodebar" 
+    src="https://www.youtube.com/embed/wQmMTsPoaxw" 
+    title="YouTube video player" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+     <figcaption> Una recopilacion de momentos trabajando en diferentes bares.</figcaption>
      </figure>
 </section>
   <section>
@@ -78,6 +84,7 @@
   <section id="contact">
     <h2>Contacto</h2>
     <form action="https://formsubmit.co/espinosaagustin18@gmail.com" method="POST">
+      <div id="formulario">
   <label for="name">Nombre:</label><br>
   <input type="text" id="name" name="name" placeholder="Tu nombre" required><br><br>
 
@@ -88,6 +95,7 @@
   <textarea id="message" name="message" placeholder="Escribí tu mensaje aquí" required></textarea><br><br>
 
   <button type="submit">Enviar</button>
+      </div>
 </form>
 
   </section>

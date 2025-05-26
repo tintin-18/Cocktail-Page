@@ -12,6 +12,7 @@ h3 {
 figure {
   margin: 0; /* elimina márgenes por defecto */
   padding: 0;
+    text-align: center;
 }
 
 .cv-image {
@@ -26,7 +27,9 @@ width: 200px;
   background-color: #DCE6F1
 }
 .mitrabajodebar {
-  width: 250px;
+  width: 270px;
+  height: 480px;
+  border: none ;
 }
 
 body {
@@ -40,4 +43,42 @@ width: 200px;
 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#navegar {
+  font-size: large;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-style: oblique;
+
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: -5px;
+}
+h1 {
+  font-size: 2em;
+  margin-top: 1px;
+  margin-bottom: -15px;
+
+}
+#home {
+  text-align: center;
+}
+
+#formulario {
+  margin-top: 10px;
+}
+
+.iconpag{
+  margin-top: -40px;
+  margin-bottom: -40px;
 }
