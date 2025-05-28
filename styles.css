@@ -40,8 +40,10 @@ width: 200px;
 }
 
 body {
-  background-color:#FFF8CC ;
+  background-image: url('fondococtelria.webp');
   margin: 0;
+  background-size: contain;
+background-position: center;;
 }
 
 
@@ -62,7 +64,7 @@ p {
 
 h2 {
   font-size: 1.6em;
-  margin-bottom: -0.3rem; /* similar a -5px */
+  margin-bottom: -0.3rem; 
 }
 h1 {
   font-size: 2em;
