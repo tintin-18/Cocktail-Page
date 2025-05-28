@@ -43,7 +43,7 @@ body {
   background-image: url('fondococtelria.webp');
   margin: 0;
   background-size: contain;
-background-position: center;;
+background-position: center;
 }
 
 
@@ -85,4 +85,28 @@ h1 {
   width: 200px;
   display: block;
   margin: 1px auto; 
+}
+
+button#submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="text"],
+input[type="email"],
+input[type="message"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
 }
