@@ -110,3 +110,12 @@ textarea {
   font-size: 1rem;
   box-sizing: border-box;
 }
+
+.diploma{
+   width: 30rem;
+   height: auto;
+  border: 1px solid black;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
