@@ -142,3 +142,25 @@ font-size: 1.5rem;
   font-family: oblique
 
 }
+
+@media (max-width: 585px) {
+  #mycv {
+   display: flex;
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    align-items: center; /* Centra los elementos */
+    padding: 0.4rem; /* Ajusta el padding */
+gap: 0.1rem; /* Espacio entre los elementos */
+text-align: center;
+  }
+
+  #navegar {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    align-items: center; /* Centra los elementos */
+  }
+
+  #navegar li {
+    margin-bottom: 1.3rem; /* Espacio entre los enlaces */
+  }
+}
+
+
