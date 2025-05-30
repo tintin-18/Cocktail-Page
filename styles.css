@@ -51,10 +51,6 @@ figcaption {
   margin-top: 10px;
 }
 
-#navegar {
-  font-size: large;
-}
-
 p {
   font-size: 1.1em;
   line-height: 1.5;
@@ -97,9 +93,14 @@ button#submit {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+button#submit:hover {
+  background-color: #2980b9;
+}
+
+
 input[type="text"],
 input[type="email"],
-input[type="message"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -129,7 +130,7 @@ textarea {
   margin: 0;
    display: flex; 
 justify-content: space-between; /* reparte el espacio entre los <li> */             
-width: 100% auto;
+width: auto;
 }
 
 #navegar li a {
@@ -139,9 +140,19 @@ width: 100% auto;
   border-radius: 8px;
   text-decoration: none;
 font-size: 1.5rem;
-  font-family: oblique
-
+  font-style: oblique;
+font-family: Arial, sans-serif;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+#navegar li a:hover {
+  background-color: #F8D7A0; /* Cambia el color de fondo al pasar el ratón */
+  color: black; /* Cambia el color del texto al pasar el ratón */
+}
+
+
+
 
 @media (max-width: 585px) {
   #mycv {
