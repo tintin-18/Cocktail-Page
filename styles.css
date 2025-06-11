@@ -8,6 +8,18 @@ h3 {
   text-decoration: underline;
 }
 
+* {
+  box-sizing: border-box;
+}
+#navegar {
+  list-style: none; 
+  padding:2rem;
+  margin: 0;
+   display: flex; 
+justify-content: space-between; /* reparte el espacio entre los <li> */             
+width: 100%;
+background-color: black;
+}
 
 .imgcocktail {
   width: 200px;
@@ -124,18 +136,9 @@ textarea {
   font-family: Arial, sans-serif;
 }
 
-#navegar {
-  list-style: none; 
-  padding:2rem;
-  margin: 0;
-   display: flex; 
-justify-content: space-between; /* reparte el espacio entre los <li> */             
-width: auto;
-}
 
 #navegar li a {
-    color: white;
-  background-color: #F5A623;     
+    color: white;  
   padding: 0.5rem 0.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -147,13 +150,55 @@ transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #navegar li a:hover {
-  background-color: #F8D7A0; /* Cambia el color de fondo al pasar el ratón */
+  background-color: #DCE6F1; /* Cambia el color de fondo al pasar el ratón */
   color: black; /* Cambia el color del texto al pasar el ratón */
 }
 
+#descripcioncoctel {
+  white-space: pre;
+}
+.titulosimulador {
+  margin-bottom: 1rem;
+}
+#simulator {
+  display: flex;
+  flex-direction: column; /* Cambia a columna para mejor disposición */
+  align-items: center; /* Centra los elementos */
+  padding: 1rem;
+  text-align: center; /* Centra el texto */
+}
 
+button#btnCalcular {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+button#btnCalcular:hover {
+  background-color: #2980b9;
+}
 
+#simulator select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#simulator label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  display: block; /* Asegura que el label ocupe toda la línea */
+}
 @media (max-width: 585px) {
   #mycv {
    display: flex;

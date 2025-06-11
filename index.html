@@ -6,24 +6,65 @@
     <link rel="stylesheet" href="./styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>   
-    <div class="contenedor">
-<header>
-  <img src="icon tintin.png" alt="icono de la pagina" class="iconpag">
+  <header>
       <nav>
       <ul id="navegar">
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#recipes">Recetas</a></li>
+         <li><a href="#simulator">Bartender virtual</a></li>
+                 <li><a href="#recipes">Recetas</a></li>
         <li><a href="#about">Sobre mí</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav> 
   </header>
+  <body>   
+    <div class="contenedor">    
   <section id="home">
     <h1>Tintin on the Rocks</h1>
     <p>    Bienvenido a <strong>Tintin on the Rocks</strong>, un espacio donde la pasión por la coctelería se mezcla con la creatividad y el arte del desarrollo web. Aquí encontrarás mis recetas exclusivas, trucos para preparar cócteles únicos y la inspiración para sorprender. ¡Salud y que disfrutes este viaje lleno de sabores! </p>
+       <img src="icon tintin.png" alt="icono de la pagina" class="iconpag">
   </section>
+  <hr>
+<section id="simulator">
+<h1 class="titulosimulador">Explorá una creación original de autor.</h1>
 
+  <label for="destilado">Elegí un destilado:</label>
+  <select id="destilado">
+    <option value="">--Seleccioná--</option>
+    <option value="vodka">Vodka</option>
+    <option value="ron">Ron</option>
+    <option value="gin">Gin</option>
+     <option value="tequila">Tequila</option>
+          <option value="whiskey">Whiskey</option>
+  </select>
+
+  <br><br>
+
+  <label for="ingrediente">Elegí un ingrediente extra:</label>
+  <select id="ingrediente">
+    <option value="">--Seleccioná--</option>
+    <option value="menta">Menta</option>
+    <option value="frutas">Frutas</option>
+    <option value="café">Café</option>
+  </select>
+
+  <br><br>
+
+  <label for="estilo">Elegí un estilo:</label>
+  <select id="estilo">
+    <option value="">--Seleccioná--</option>
+    <option value="refrescante">Refrescante</option>
+    <option value="fuerte">Fuerte</option>
+    <option value="dulce">Dulce</option>
+  </select>
+
+  <br><br>
+
+  <button id="btnCalcular">Explorar cócteles</button>
+
+  <h2 id="resultado"></h2>
+  <p id="descripcioncoctel"></p>  
+</section>
+<hr>
   <section id="recipes">
     <h2>Top Mixes</h2>
     <article class="cocktail">
@@ -90,7 +131,7 @@
 </article>
   </section>
 <hr>
-  <section id="about">
+<section id="about">
     <h2>Sobre mi</h2>
   <p>Soy Agustín, un bartender y programador uruguayo  en alza con pasión por crear mezclas únicas y compartirlas con el mundo.</p>
 <figure>
@@ -134,5 +175,6 @@
     <p>© 2025 Tintin on the Rocks</p>
   </footer>  
 </div>
+    <script src="script.js"></script>
 </body>
 </html>
