@@ -230,7 +230,7 @@ Hielo`;
 20 ml de jugo de mango
 10 ml de syrup de maracuyá
 Hielo`;
-} else if (nombreTrago === "Ron Frío") {
+} else if (nombreTrago === "Brisa Tostada") {
   descripcionTrago = `60 ml de ron blanco
 30 ml de café frío
 15 ml de almíbar de vainilla
@@ -391,7 +391,7 @@ Hielo`;
 30 ml de jugo de manzana verde
 15 ml de syrup de miel
 Hielo`;
-} else if (nombreTrago === "Whisky Helado") {
+} else if (nombreTrago === "Destello Escocés") {
   descripcionTrago = `50 ml de whiskey
 30 ml de café frío
 20 ml de licor de café
